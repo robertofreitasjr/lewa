@@ -573,6 +573,9 @@ a:hover {
   color: #e2dd9d;
 }
 /* Scroll to top button*/
+.scrollToTop_wraper {
+  display: none;
+}
 #scrollToTop a i:before {
   content: '';
   position: absolute;
@@ -1744,7 +1747,7 @@ body {
 .cid-qWHEUOmLiF {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #efefef;
+  background-color: #c1c1c1;
 }
 .cid-qWHEUOmLiF .mbr-section-subtitle {
   color: #767676;
@@ -1755,17 +1758,17 @@ body {
   flex-wrap: wrap;
 }
 .cid-qWHEUOmLiF .mbr-text {
-  color: #767676;
+  color: #000000;
 }
 .cid-qWHEUOmLiF .mbr-author-desc {
   display: block;
   color: #767676;
 }
 .cid-qWHEUOmLiF .mbr-author-name {
-  color: #767676;
+  color: #000000;
 }
 .cid-qWHEUOmLiF .mbr-testimonial .panel-item {
-  background-color: #efefef;
+  background-color: #c1c1c1;
 }
 .cid-qWHEUOmLiF .mbr-testimonial .card-block {
   -webkit-flex-grow: 0;
