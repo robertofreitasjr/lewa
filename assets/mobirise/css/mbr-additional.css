@@ -1994,9 +1994,12 @@ body {
   background-color: #ffffff;
 }
 .cid-qWT6VDlgyg .mbr-section-subtitle {
-  color: #7f1933;
+  color: #dc143c;
 }
 .cid-qWT6VDlgyg H2 {
+  color: #000000;
+}
+.cid-qWT6VDlgyg B {
   color: #000000;
 }
 .cid-qWT6EbWfub {
@@ -2470,4 +2473,9 @@ body {
 }
 .cid-qWT3tIi1rM .media-container-row .row-copirayt p {
   width: 100%;
+}
+.cid-qWTkn0Fjbo {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #232323;
 }
