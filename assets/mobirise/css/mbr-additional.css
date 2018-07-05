@@ -573,9 +573,6 @@ a:hover {
   color: #e2dd9d;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
-}
 #scrollToTop a i:before {
   content: '';
   position: absolute;
@@ -1978,11 +1975,6 @@ body {
 .cid-qWNmkYRuQj .media-container-row .row-copirayt p {
   width: 100%;
 }
-.cid-qWTfeZg46K {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #232323;
-}
 .cid-qWT42zwWiF {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -2473,9 +2465,4 @@ body {
 }
 .cid-qWT3tIi1rM .media-container-row .row-copirayt p {
   width: 100%;
-}
-.cid-qWTkn0Fjbo {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #232323;
 }
