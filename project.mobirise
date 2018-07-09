@@ -979,7 +979,7 @@
             "blockTitle": "",
             "HTMLCode": "<style type=\"text/css\">\n#my_centered_buttons { display: flex; justify-content: center; }\n</style>\n\n<!-- AddToAny BEGIN -->\n<div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\" id=\"my_centered_buttons\">\n<a class=\"a2a_button_facebook\"></a>\n<a class=\"a2a_button_twitter\"></a>\n<a class=\"a2a_button_pinterest\"></a>\n<a class=\"a2a_button_whatsapp\"></a>\n<a class=\"a2a_button_facebook_messenger\"></a>\n<a class=\"a2a_button_email\"></a>\n</div>\n<script>\nvar a2a_config = a2a_config || {};\na2a_config.locale = \"pt-BR\";\na2a_config.icon_color = \"white,crimson\";\n</script>\n<script async src=\"https://static.addtoany.com/menu/page.js\"></script>\n<!-- AddToAny END -->",
             "extEdit": false,
-            "paddingTop": "40",
+            "paddingTop": "20",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
@@ -991,7 +991,7 @@
           },
           "blockTitle": "",
           "HTMLCode": "<style type=\"text/css\">\n#my_centered_buttons { display: flex; justify-content: center; }\n</style>\n\n<!-- AddToAny BEGIN -->\n<div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\" id=\"my_centered_buttons\">\n<a class=\"a2a_button_facebook\"></a>\n<a class=\"a2a_button_twitter\"></a>\n<a class=\"a2a_button_pinterest\"></a>\n<a class=\"a2a_button_whatsapp\"></a>\n<a class=\"a2a_button_facebook_messenger\"></a>\n<a class=\"a2a_button_email\"></a>\n</div>\n<script>\nvar a2a_config = a2a_config || {};\na2a_config.locale = \"pt-BR\";\na2a_config.icon_color = \"white,crimson\";\n</script>\n<script async src=\"https://static.addtoany.com/menu/page.js\"></script>\n<!-- AddToAny END -->",
-          "paddingTop": ".block {padding-bottom:40px; padding-top:40px;}",
+          "paddingTop": ".block {padding-bottom:20px; padding-top:20px;}",
           "alias": "htmlblock",
           "_tags": [
             "Extension"
