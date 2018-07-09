@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "lewa",
-    "currentPage": "index.html",
+    "currentPage": "artigos.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -611,6 +611,7 @@
           "_name": "gallery3",
           "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#dc143c\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\"></div>\n    </div>\n\n</section>",
           "_cid": "qXgQcBEHbk",
+          "_anchor": "gallery3-16",
           "_protectedParams": [
             "text_all",
             "gallery__filtersTextStyle",
@@ -677,8 +678,7 @@
                 "active": true
               }
             ]
-          },
-          "_anchor": "gallery3-16"
+          }
         },
         {
           "_styles": {
@@ -942,7 +942,7 @@
             }
           },
           "_name": "content5",
-          "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1281.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#0f7699\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\"></h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\"></h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Shape your future web project with sharp design and refine coded functions\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-white-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1281.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#0f7699\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\"></h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\"></h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Shape your future web project with sharp design and refine coded functions\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-white-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qWT42zwWiF",
           "_anchor": "content5-t",
           "_protectedParams": [],
@@ -977,21 +977,21 @@
         {
           "_params": {
             "blockTitle": "",
-            "HTMLCode": "<!-- AddToAny BEGIN -->\n<div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\">\n<a class=\"a2a_button_facebook\"></a>\n<a class=\"a2a_button_twitter\"></a>\n<a class=\"a2a_button_whatsapp\"></a>\n</div>\n<script>\nvar a2a_config = a2a_config || {};\na2a_config.locale = \"pt-BR\";\na2a_config.icon_color = \"white,crimson\";\n</script>\n<script async src=\"https://static.addtoany.com/menu/page.js\"></script>\n<!-- AddToAny END -->",
+            "HTMLCode": "<!-- AddToAny BEGIN -->\n<div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\">\n<a class=\"a2a_button_facebook\"></a>\n<a class=\"a2a_button_twitter\"></a>\n<a class=\"a2a_button_pinterest\"></a>\n<a class=\"a2a_button_whatsapp\"></a>\n<a class=\"a2a_button_facebook_messenger\"></a>\n<a class=\"a2a_button_email\"></a>\n</div>\n<script>\nvar a2a_config = a2a_config || {};\na2a_config.locale = \"pt-BR\";\na2a_config.icon_color = \"white,crimson\";\n</script>\n<script async src=\"https://static.addtoany.com/menu/page.js\"></script>\n<!-- AddToAny END -->",
             "extEdit": false,
-            "paddingTop": "40",
+            "paddingTop": "60",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#ffffff",
             "overlay": false,
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
           "blockTitle": "",
-          "HTMLCode": "<!-- AddToAny BEGIN -->\n<div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\">\n<a class=\"a2a_button_facebook\"></a>\n<a class=\"a2a_button_twitter\"></a>\n<a class=\"a2a_button_whatsapp\"></a>\n</div>\n<script>\nvar a2a_config = a2a_config || {};\na2a_config.locale = \"pt-BR\";\na2a_config.icon_color = \"white,crimson\";\n</script>\n<script async src=\"https://static.addtoany.com/menu/page.js\"></script>\n<!-- AddToAny END -->",
-          "paddingTop": ".block {padding-bottom:40px; padding-top:40px;}",
+          "HTMLCode": "<!-- AddToAny BEGIN -->\n<div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\">\n<a class=\"a2a_button_facebook\"></a>\n<a class=\"a2a_button_twitter\"></a>\n<a class=\"a2a_button_pinterest\"></a>\n<a class=\"a2a_button_whatsapp\"></a>\n<a class=\"a2a_button_facebook_messenger\"></a>\n<a class=\"a2a_button_email\"></a>\n</div>\n<script>\nvar a2a_config = a2a_config || {};\na2a_config.locale = \"pt-BR\";\na2a_config.icon_color = \"white,crimson\";\n</script>\n<script async src=\"https://static.addtoany.com/menu/page.js\"></script>\n<!-- AddToAny END -->",
+          "paddingTop": ".block {padding-bottom:60px; padding-top:60px;}",
           "alias": "htmlblock",
           "_tags": [
             "Extension"
