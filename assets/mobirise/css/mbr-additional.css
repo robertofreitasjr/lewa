@@ -51,10 +51,10 @@ body {
 }
 .display-7 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.92rem;
+  font-size: 1.6rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -642,13 +642,13 @@ a:hover {
   box-shadow: none;
   color: #565656;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.43;
   min-height: 3.5em;
   padding: 1.07em .5em;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.92rem;
+  font-size: 1.6rem;
 }
 .form-control,
 .form-control:focus {
@@ -1964,7 +1964,7 @@ body {
 .cid-qWT42zwWiF {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-image: url("../../../assets/images/mbr-1-1920x1281.jpg");
+  background-image: url("../../../assets/images/mbr-7-1920x1280.jpg");
 }
 .cid-qWT6VDlgyg {
   padding-top: 45px;
@@ -1994,44 +1994,7 @@ body {
   text-align: left;
 }
 .cid-qWT6EbWfub .mbr-text P {
-  color: #767676;
-}
-.cid-qXlQyg92Sl {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background: #ffffff;
-}
-.cid-qXlQyg92Sl .image-block {
-  margin: auto;
-}
-.cid-qXlQyg92Sl figcaption {
-  position: relative;
-}
-.cid-qXlQyg92Sl figcaption div {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-@media (max-width: 768px) {
-  .cid-qXlQyg92Sl .image-block {
-    width: 100% !important;
-  }
-}
-.cid-qXlTXBi5qX {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #ffffff;
-}
-.cid-qXlTXBi5qX .mbr-text,
-.cid-qXlTXBi5qX blockquote {
-  color: #767676;
-}
-.cid-qXlTXBi5qX .mbr-text {
   color: #232323;
-  text-align: left;
-}
-.cid-qXlTXBi5qX .mbr-text P {
-  color: #767676;
 }
 .cid-qWT3tx53Sx .navbar {
   background: #dc143c;
