@@ -65,7 +65,7 @@
     "sitemapSwitcherAuto": "on",
     "favicon": "@PROJECT_PATH@/assets/images/lewa-cosmeticos-logotipo-badge-128x138.png",
     "noImageResize": "",
-    "cookiesAlert": "",
+    "cookiesAlert": "Usamos cookies para oferecer uma melhor experiência de navegação. Leia nosa <a href='http://lewacosmeticos.com.br/politica-de-privacidade.html'>Política de Privacidade</a>.",
     "google-analytics": "",
     "sitemapSwitcher": "on"
   },
