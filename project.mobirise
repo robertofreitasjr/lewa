@@ -24,7 +24,7 @@
         "display4Font": "Montserrat",
         "display4Size": 1,
         "isRoundedButtons": false,
-        "isAnimatedOnScroll": true,
+        "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
